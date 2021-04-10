@@ -11,6 +11,7 @@ public class TestController {
     @GetMapping("hello")
     public String helloworld(){
         JSON.toJSONString("dd");
+        JSON.toJSONString("333");
         return "HELLO world";
     }
 }
